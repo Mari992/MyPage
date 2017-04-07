@@ -1,0 +1,22 @@
+.col{
+	float:left;
+	padding:20px;
+	width:30%;
+	height:100%;
+	}
+.col1{
+	background-color:brown;
+	 }
+.col2{
+	background-color:chocolate;
+	 }
+.col3{
+	background-color:orange;
+	 }
+h5{
+	text-align:center;
+	color:white;
+  }
+p{
+	text-align:justify;
+ }
