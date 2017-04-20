@@ -1,18 +1,4 @@
-.col{
-	float:left;
-	padding:20px;
-	width:30%;
-	height:100%;
-	}
-.col1{
-	background-color:brown;
-	 }
-.col2{
-	background-color:chocolate;
-	 }
-.col3{
-	background-color:orange;
-	 }
+
 h5{
 	text-align:center;
 	color:white;
@@ -20,3 +6,16 @@ h5{
 p{
 	text-align:justify;
  }
+img.img-responsive{
+	display:block;
+	width:100%;
+	border:0px;
+	margin:auto;
+}
+.col-lg-4 col-md-12 col-sm-8 col-xs-12{
+	margin:auto;
+}
+header{
+	border:0px;
+	margin:0px;
+}

@@ -1,0 +1,29 @@
+$color_1:white;
+$font-family-text: sans-serif;
+$font-bold: 300;
+$font-size: 50px;
+
+.natpis {
+	position: absolute;
+	top: 300px;
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	color: $color_1;
+	left: 300px;
+	display:inline-block;
+	> h2 {
+		font-size: $font-size;
+		font-style: italic;
+		transform:translate(-10%,30%);
+		}
+		}
+.img-responsive{
+		width:100%;
+			}
+form {
+	position: absolute;
+	top: 100px;
+	width: 100%;
+	left: 500px;
+}

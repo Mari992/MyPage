@@ -1,0 +1,40 @@
+$color_1:white;
+$background_color_1: yellow;
+$background_color_2: orange;
+$background_color_3: chocolate;
+
+header {
+	border: 0px;
+	margin: 0px;
+}
+.row{
+	>.red1{
+	background-color:$background_color_1;
+	}
+	>.red2 {
+	background-color:$background_color_2;
+	}
+	>.red3 {
+	background-color:$background_color_3;
+	}
+}
+.red1,.red2,.red3{
+	> h5{
+		text-align: center;
+		color: $color_1;
+		}
+	> p{
+		text-align: justify;
+		}
+	}
+.kolona1, .kolona2, .kolona3{
+	padding:0px;
+}
+img.img-responsive {
+	display: block;
+	width: 100%;
+	border: 0px;
+	margin: auto;
+}
+
+

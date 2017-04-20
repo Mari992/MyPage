@@ -1,0 +1,30 @@
+.main {
+  color: black;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 19px;
+  text-align: left;
+  position: absolute;
+  top: 90%;
+  right: -5%;
+  transform: translate(-20%, 50%); }
+
+.image {
+  position: relative;
+  width: 100%;
+  display: inline-block; }
+
+#map {
+  height: 300px;
+  width: 100%; }
+
+.kontakt {
+  margin: 0;
+  position: absolute;
+  bottom: 25%;
+  right: 40%;
+  text-align: center; }
+  .kontakt > h3 {
+    color: black; }
+
+/*# sourceMappingURL=contacts.css.map */

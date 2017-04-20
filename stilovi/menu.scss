@@ -1,0 +1,42 @@
+$color_1: white;
+$color_2: chocolate;
+$background_color_1: chocolate;
+$background_color_2: brown;
+ul {
+	position:fixed;
+	
+	width:100%;
+	left:0;
+	li {
+		font-style: bold;
+		color: $color_1;
+		text-decoration: none;
+		text-align: center;
+		list-style: none;
+		background-color: $background_color_1;
+		line-height: 50px;
+		float: left;
+		width: 100%;
+		height: 50px;
+		border: 1px solid orange;
+		padding: 0;
+		margin: 0;
+		&:hover {
+			background-color: $background_color_2;
+		}
+	}
+}
+
+footer {
+	background-color: $background_color_1;
+	color: $color_1;
+	text-align:center;
+	border: 0px;
+	width: 100%;
+		}
+*{
+margin: 0 auto;
+padding: 0;
+}
+
+
