@@ -1,0 +1,42 @@
+.navbar {
+  background-color: goldenrod;
+  color: white;
+  text-style: bold; }
+
+#services > .container {
+  padding: 0px; }
+  #services > .container > .row > p {
+    text-align: justify; }
+  #services > .container > .row > h2 {
+    text-align: center; }
+#services .sekcija2 > h3 {
+  text-align: center; }
+
+#about > .container-fluid > .row > .col-sm-12 > h1 {
+  text-align: left;
+  color: white;
+  margin-bottom: 40px; }
+#about > .container-fluid > .row > .col-sm-12 > p {
+  text-align: justify;
+  color: white; }
+
+#news .naslov1, #news .naslov2, #news .naslov3 {
+  text-align: left; }
+
+#contact {
+  color: white; }
+
+#map {
+  height: 300px;
+  width: 100%; }
+
+.main, .kontakt {
+  text-align: center; }
+
+footer {
+  height: 50px;
+  text-align: center;
+  background-color: goldenrod;
+  font-size: 30px; }
+
+/*# sourceMappingURL=navbar.css.map */

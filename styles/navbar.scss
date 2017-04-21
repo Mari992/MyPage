@@ -1,0 +1,74 @@
+$background_color_1:goldenrod;
+$color_1:white;
+
+
+.navbar{
+		background-color:$background_color_1;
+		color:$color_1;
+		text-style:bold;
+		}
+
+		
+#services{
+	>.container{
+		padding:0px;
+		>.row {
+		 > p {
+		 text-align:justify;
+			  }
+		> h2{
+			text-align:center;
+			}
+				}
+				}
+	.sekcija2{
+		> h3 {
+				text-align:center;
+				}
+		}
+		}
+#about{
+		> .container-fluid{
+			> .row {
+			> .col-sm-12{
+				
+				
+				> h1{
+					text-align:left;
+					color:$color_1;
+					margin-bottom:40px;
+					}
+				> p{
+					text-align:justify;
+					color:$color_1;
+					}
+						}
+					}
+					}
+		}
+#news{
+		.naslov1, .naslov2, .naslov3{
+				text-align:left;
+									}
+		}
+#contact{
+		color:$color_1;
+		}
+		
+#map {
+        height: 300px;
+        width: 100%;
+       }
+.main, .kontakt {
+		text-align:center;
+		}
+footer{
+		height:50px;
+		text-align:center;
+		background-color:$background_color_1;
+		font-size: 30px;
+       }
+ 
+		
+		
+		
