@@ -1,0 +1,103 @@
+.caption {
+  position: relative;
+  top: 170px; }
+  .caption > h1, .caption p {
+    text-align: center;
+    color: maroon;
+    font-weight: 800; }
+  .caption > p {
+    font-size: 25px; }
+
+#navbar {
+  background-color: goldenrod;
+  border-radius: 0 !important; }
+  #navbar .nav {
+    margin: 0; }
+  #navbar .navigation > a {
+    color: white;
+    font-weight: bold; }
+    #navbar .navigation > a:hover {
+      background-color: brown; }
+
+#services > .container {
+  padding: 0px; }
+  #services > .container > .row > p {
+    text-align: justify; }
+  #services > .container > .row > h2 {
+    text-align: center; }
+#services .sekcija2 > h3 {
+  text-align: center; }
+#services .sekcija2 #image1 .tekst1, #services .sekcija2 #image1 .tekst2, #services .sekcija2 #image1 .tekst3, #services .sekcija2 #image2 .tekst1, #services .sekcija2 #image2 .tekst2, #services .sekcija2 #image2 .tekst3, #services .sekcija2 #image3 .tekst1, #services .sekcija2 #image3 .tekst2, #services .sekcija2 #image3 .tekst3 {
+  display: none; }
+#services .sekcija2 .apear {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  position: absolute;
+  top: 150px;
+  left: 80px; }
+
+.sekcija3 #image4 .tekst4, .sekcija3 #image4 .tekst5, .sekcija3 #image5 .tekst4, .sekcija3 #image5 .tekst5 {
+  display: none; }
+.sekcija3 .apear {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  position: absolute;
+  top: 150px;
+  left: 80px; }
+
+#about > .container-fluid > .row > .col-sm-12 > h1 {
+  text-align: left;
+  color: white;
+  margin-bottom: 40px; }
+#about > .container-fluid > .row > .col-sm-12 > p {
+  text-align: justify;
+  color: white; }
+
+#news .container {
+  padding: 0; }
+  #news .container .row {
+    margin-left: 0;
+    margin-right: 0; }
+#news .naslov1, #news .naslov2, #news .naslov3 {
+  text-align: center; }
+  #news .naslov1 > p > a, #news .naslov2 > p > a, #news .naslov3 > p > a {
+    color: white;
+    font-weight: 700; }
+  #news .naslov1 .posts > .row, #news .naslov2 .posts > .row, #news .naslov3 .posts > .row {
+    margin: 0; }
+#news .dugme {
+  text-align: center;
+  margin-top: 10px; }
+  #news .dugme .button {
+    background-color: goldenrod; }
+
+#contact {
+  color: white; }
+
+#map {
+  height: 300px;
+  width: 100%; }
+
+.main, .kontakt {
+  text-align: center; }
+
+footer {
+  height: 50px;
+  text-align: center;
+  background-color: goldenrod;
+  font-size: 30px; }
+  footer > a {
+    color: black; }
+
+.carousel-inner > .item > img {
+  width: 100%;
+  margin: auto; }
+.carousel-inner > .item > a > img {
+  width: 100%;
+  margin: auto; }
+
+/*# sourceMappingURL=slider.css.map */

@@ -1,0 +1,178 @@
+$background_color_1:goldenrod;
+$background_color_2:brown;
+$color_1:white;	
+$color_2:maroon;
+$color_3:black;
+
+
+
+
+.caption{
+			position:relative;
+			top:170px;
+	> h1, p {
+			text-align:center;
+			color:$color_2;
+			font-weight:800;
+			
+			
+				}
+			> p{
+				font-size:25px;
+					}
+		}
+		
+#navbar{
+		background-color:$background_color_1;
+		border-radius:0 !important;
+		
+			.nav{
+					margin:0;
+					}
+			.navigation{
+				> a{
+					color:$color_1;
+					font-weight:bold;
+					&:hover{
+							background-color:$background_color_2;
+								}
+						}
+							}
+		}
+		
+#services{
+	>.container{
+		padding:0px;
+		>.row {
+		 > p {
+		 text-align:justify;
+			  }
+		> h2{
+			text-align:center;
+			}
+				}
+				}
+	.sekcija2{
+		> h3 {
+				text-align:center;
+				}
+		#image1, #image2, #image3{
+			 .tekst1, .tekst2, .tekst3,{
+					display:none;
+						}
+				}
+		.apear{
+				color:black;
+				text-align:center;
+				font-weight:bold;
+				font-size:17px;
+				position:absolute;
+				top:150px;
+				left:80px;
+				}
+			 }
+		}
+		
+.sekcija3 {
+			#image4, #image5{
+			 .tekst4, .tekst5{
+					display:none;
+						}
+				}
+			.apear{
+				color:black;
+				text-align:center;
+				font-weight:bold;
+				font-size:17px;
+				position:absolute;
+				top:150px;
+				left:80px;
+				}
+			}	
+		
+#about{
+		> .container-fluid{
+			> .row {
+			> .col-sm-12{
+				
+				
+				> h1{
+					text-align:left;
+					color:$color_1;
+					margin-bottom:40px;
+					}
+				> p{
+					text-align:justify;
+					color:$color_1;
+					}
+						}
+					}
+					}
+		}
+#news{
+		.container {
+				padding:0;
+			.row{
+				 margin-left:0;
+				 margin-right:0;
+					}
+					}
+		.naslov1, .naslov2, .naslov3{
+				text-align:center;
+			> p > a{
+				color:$color_1;
+				font-weight:700;
+				
+					}
+		.posts{
+			> .row{
+					margin:0;
+					}
+				}
+									}
+		.dugme{
+				text-align:center;
+				margin-top:10px;
+			.button{
+				background-color:$background_color_1;
+					}
+					}
+		}
+#contact{
+		color:$color_1;
+		}		
+#map {
+        height: 300px;
+        width: 100%;
+       }
+.main, .kontakt {
+		text-align:center;
+		}
+footer{
+		height:50px;
+		text-align:center;
+		background-color:$background_color_1;
+		font-size: 30px;
+	> a{
+		color:$color_3;
+			}
+       }
+	   
+	   
+.carousel-inner{
+	> .item {
+				> img{
+						width:100%;
+						margin:auto;
+						}
+				> a > img {
+							width:100%;
+							margin:auto;
+							}
+			}
+				}
+	   
+	    
+		
+		
+		
