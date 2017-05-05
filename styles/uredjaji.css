@@ -1,0 +1,33 @@
+/* Smartphones (portrait and landscape) */
+@media (min-width: 320px) and (max-width: 480px) {
+  #services {
+    font-size: 12px;
+    width: 100%;
+    margin: auto;
+    text-align: center; }
+    #services .sekcija2 {
+      text-align: center; }
+      #services .sekcija2 .polje1, #services .sekcija2 .polje2, #services .sekcija2 .polje3 {
+        margin-right: 0px;
+        text-align: center;
+        width: 100%; }
+        #services .sekcija2 .polje1 .apear, #services .sekcija2 .polje2 .apear, #services .sekcija2 .polje3 .apear {
+          text-align: center; }
+    #services .row {
+      padding-left: 20px;
+      padding-right: 20px; }
+
+  .sekcija3 {
+    padding: 0px;
+    text-align: center; }
+    .sekcija3 .polje4, .sekcija3 .polje5 {
+      margin-left: 0px;
+      margin-right: 0px;
+      width: 100%; }
+
+  #about h1 {
+    margin-top: 0px; }
+  #about p {
+    font-size: 12px; } }
+
+/*# sourceMappingURL=uredjaji.css.map */

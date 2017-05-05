@@ -124,4 +124,21 @@ $(document).ready(function() {
 		$(this).stop().animate({opacity:1},500);
 	});
 });
+/*next/preview*/
+$("#slider-prev").click(function(){
+	if($(".slider-a").is(":visible")){
+		$(".slider-a").hide(2000);
+	}else{
+		$(".slider-b").hide(2000);
+	}     				
+});
+
+$("#slider-next").click(function(){
+	if(($(".slider-a").not(":visible")) && ($(".slider-b").is(":visible"))){
+		$(".slider-a").show(2000);
+	}else if(($(".slider-a").not(":visible")) && ($(".slider-b").not(":visible"))){
+		$(".slider-b").show(2000);
+	}
+});
+
 

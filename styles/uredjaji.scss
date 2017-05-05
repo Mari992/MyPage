@@ -1,0 +1,51 @@
+/* Smartphones (portrait and landscape) */
+
+$smartphones: "(min-width: 320px) and (max-width: 480px)";
+$iPads: "(min-width: 768px) and (max-width: 1024px)";
+$des_lap: "(min-width: 1224px)";
+$largescreens: "(min-width:1824px)";
+
+@media #{$smartphones} {
+	#services {
+				font-size:12px;
+				width:100%;
+				margin:auto;
+				text-align:center;
+				
+		.sekcija2{
+					text-align:center;
+			.polje1, .polje2,.polje3{
+								margin-right:0px;
+								text-align:center;
+								width:100%;
+							.apear{
+									text-align:center;
+									
+										}
+									}
+					}
+		.row {
+				padding-left:20px;
+				padding-right:20px;
+				}
+					}
+	.sekcija3{
+				padding:0px;
+				text-align:center;
+			.polje4, .polje5 {
+					margin-left:0px;
+					margin-right: 0px;
+					width:100%;
+								}
+				}
+	#about {
+			h1{
+				margin-top:0px;
+				}
+				
+				
+				p{
+					font-size:12px;
+					}
+				}
+}
