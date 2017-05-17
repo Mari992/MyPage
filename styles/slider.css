@@ -1,3 +1,12 @@
+header .carousel-inner .one {
+  background-image: url("../slike/naslovna.png"); }
+header .carousel-inner .two {
+  background-image: url("../slike/slide2.jpg"); }
+header .carousel-inner .three {
+  background-image: url("../slike/slide3.jpg"); }
+header .carousel-inner .caption {
+  height: 590px; }
+
 .caption {
   position: relative;
   top: 170px; }
@@ -19,6 +28,17 @@
     font-weight: bold; }
     #navbar .navigation > a:hover {
       background-color: brown; }
+  #navbar .container .navbar-collapse {
+    border-color: transparent; }
+  #navbar .container .navbar-header .navbar-brand {
+    padding-top: 0px; }
+    #navbar .container .navbar-header .navbar-brand h1 {
+      margin: 0px; }
+      #navbar .container .navbar-header .navbar-brand h1 img {
+        height: 50px; }
+  #navbar .container .navbar-header .navbar-toggle {
+    border-color: white;
+    background-color: goldenrod; }
 
 #services > .container {
   padding: 0px; }
@@ -45,29 +65,20 @@
     #services .sekcija2 #image1 .tekst1 > p, #services .sekcija2 #image1 .tekst2 > p, #services .sekcija2 #image1 .tekst3 > p, #services .sekcija2 #image2 .tekst1 > p, #services .sekcija2 #image2 .tekst2 > p, #services .sekcija2 #image2 .tekst3 > p, #services .sekcija2 #image3 .tekst1 > p, #services .sekcija2 #image3 .tekst2 > p, #services .sekcija2 #image3 .tekst3 > p {
       text-align: justify; }
 #services .sekcija2 .apear {
-  color: black;
-  text-align: center;
-  font-weight: bold;
-  font-size: 17px;
   position: absolute;
-  top: 150px;
-  left: 80px; }
+  top: 50%;
+  z-index: 1;
+  color: black;
+  width: 100%;
+  font-weight: bold; }
 
 .sekcija3 {
   padding: 0px;
-  margin-bottom: 70px; }
-  .sekcija3 .polje4 {
-    padding: 0px;
-    margin-right: 234px;
-    margin-left: 234px;
-    width: 234px; }
-    .sekcija3 .polje4 > h4 {
-      text-align: center; }
-  .sekcija3 .polje5 {
-    width: 234px;
-    padding: 0px; }
-    .sekcija3 .polje5 h4 {
-      text-align: center; }
+  margin-bottom: 70px;
+  text-align: center; }
+  .sekcija3 .polje4, .sekcija3 .polje5 {
+    padding-left: 0px;
+    padding-right: 0px; }
   .sekcija3 #image4, .sekcija3 #image5 {
     text-align: center; }
     .sekcija3 #image4 img, .sekcija3 #image5 img {
@@ -80,21 +91,24 @@
       .sekcija3 #image4 .tekst4 > h4, .sekcija3 #image4 .tekst5 > h4, .sekcija3 #image5 .tekst4 > h4, .sekcija3 #image5 .tekst5 > h4 {
         text-align: center; }
   .sekcija3 .apear {
-    color: black;
-    text-align: center;
-    font-weight: bold;
-    font-size: 17px;
     position: absolute;
-    top: 150px;
-    left: 80px; }
+    top: 50%;
+    z-index: 1;
+    color: black;
+    width: 100%;
+    font-weight: bold; }
 
-#about > .container-fluid > .row > .col-sm-12 > h1 {
-  text-align: left;
-  color: white;
-  margin-bottom: 40px; }
-#about > .container-fluid > .row > .col-sm-12 > p {
-  text-align: justify;
-  color: white; }
+#about > .container-fluid > .row > .col-sm-12 {
+  background-image: url("../slike/aboutus.jpg");
+  height: 660px;
+  width: 100%; }
+  #about > .container-fluid > .row > .col-sm-12 > h1 {
+    text-align: left;
+    color: white;
+    margin-bottom: 40px; }
+  #about > .container-fluid > .row > .col-sm-12 > p {
+    text-align: justify;
+    color: white; }
 
 #news {
   margin-bottom: 90px; }
@@ -113,13 +127,17 @@
       font-weight: 700; }
   #news .posts > .row {
     margin: 0; }
-  #news .posts #slider-container img {
-    margin-top: 10px;
-    margin-left: 70px;
-    margin-right: 70px; }
-  #news .posts #slider-container .slider-img {
-    padding: 0px;
-    height: 331px; }
+  #news .posts #slider-container {
+    background-image: url("../slike/brick.jpg");
+    width: 100%;
+    color: white; }
+    #news .posts #slider-container img {
+      margin-top: 10px;
+      margin-left: 70px;
+      margin-right: 70px; }
+    #news .posts #slider-container .slider-img {
+      padding: 0px;
+      height: 331px; }
   #news .dugme {
     text-align: center;
     margin-top: 10px; }
@@ -135,7 +153,8 @@
   color: white;
   width: 100%;
   height: 590px;
-  text-align: center; }
+  text-align: center;
+  background-image: url("../slike/contact.png"); }
   #contact a {
     color: black; }
   #contact #forma {
@@ -143,6 +162,8 @@
     color: black; }
   #contact #email, #contact #name, #contact textarea {
     border: none; }
+  #contact textarea {
+    width: 280px; }
 
 footer {
   height: 50px;

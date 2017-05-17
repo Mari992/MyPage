@@ -1,7 +1,106 @@
-/* Smartphones (portrait and landscape) */
 @media (min-width: 320px) and (max-width: 480px) {
+  header {
+    font-size: 12px; }
+    header #navbar > .container {
+      padding-right: 5px; }
+    header .carousel-inner .one, header .carousel-inner .two, header .carousel-inner .three {
+      background-size: 100% 100% !important;
+      background-repeat: no-repeat !important;
+      width: 100% !important;
+      height: 350px !important; }
+    header .carousel-inner .caption {
+      top: 70px; }
+      header .carousel-inner .caption > h1, header .carousel-inner .caption p {
+        font-weight: 600; }
+
   #services {
     font-size: 12px;
+    width: 100%;
+    margin: auto;
+    text-align: center; }
+    #services .sekcija2 {
+      text-align: center; }
+      #services .sekcija2 .polje1, #services .sekcija2 .polje2, #services .sekcija2 .polje3 {
+        margin-right: 0px;
+        text-align: center;
+        width: 100%; }
+        #services .sekcija2 .polje1 .apear, #services .sekcija2 .polje2 .apear, #services .sekcija2 .polje3 .apear {
+          text-align: center;
+          font-size: 15px; }
+      #services .sekcija2 .tekst1 p, #services .sekcija2 .tekst2 p, #services .sekcija2 .tekst3 p {
+        padding: 15px; }
+    #services .row {
+      padding-left: 20px;
+      padding-right: 20px; }
+      #services .row p {
+        padding-left: 10px;
+        padding-right: 10px; }
+
+  .sekcija3 {
+    padding: 0px;
+    text-align: center; }
+    .sekcija3 .polje4, .sekcija3 .polje5 {
+      margin-left: 0px;
+      margin-right: 0px;
+      width: 100%; }
+    .sekcija3 .tekst4, .sekcija3 .tekst5 {
+      padding: 15px;
+      font-size: 12px; }
+
+  #about > .container-fluid > .row > .col-sm-12 {
+    background: url("../slike/aboutus.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat !important;
+    width: 100% !important;
+    height: 400px !important; }
+    #about > .container-fluid > .row > .col-sm-12 h1 {
+      margin-top: 0px;
+      margin-bottom: 10px; }
+    #about > .container-fluid > .row > .col-sm-12 p {
+      font-size: 12px; }
+
+  #news .posts #slider-container img {
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center; }
+
+  #contact {
+    background: url("../slike/contact.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat !important;
+    width: 100% !important;
+    height: 500px; }
+    #contact .main {
+      font-size: 12px; }
+    #contact #forma {
+      margin-top: 20px; }
+      #contact #forma textarea {
+        width: 264px;
+        height: 150px; }
+      #contact #forma #email, #contact #forma #name {
+        width: 130px; }
+
+  footer {
+    font-size: 20px;
+    height: 30px; } }
+@media (min-width: 768px) and (max-width: 1024px) {
+  header {
+    font-size: 12px; }
+    header #navbar > .container {
+      padding-right: 5px; }
+    header .carousel-inner .one, header .carousel-inner .two, header .carousel-inner .three {
+      background-size: 100% 100% !important;
+      background-repeat: no-repeat !important;
+      width: 100% !important;
+      height: 400px !important; }
+
+  #services {
     width: 100%;
     margin: auto;
     text-align: center; }
@@ -25,9 +124,92 @@
       margin-right: 0px;
       width: 100%; }
 
-  #about h1 {
-    margin-top: 0px; }
-  #about p {
-    font-size: 12px; } }
+  #about > .container-fluid > .row > .col-sm-12 {
+    background: url("../slike/aboutus.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat !important;
+    width: 100% !important;
+    height: 300px; }
+    #about > .container-fluid > .row > .col-sm-12 h1 {
+      margin-top: 0px;
+      margin-bottom: 10px; }
+
+  #news .posts #slider-container {
+    width: 100%; }
+    #news .posts #slider-container .slider-img {
+      text-align: center; }
+    #news .posts #slider-container img {
+      margin-left: 0px;
+      margin-right: 0px;
+      text-align: center;
+      width: 200px; }
+
+  #contact {
+    font-size: 15px;
+    background: url("../slike/contact.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat !important;
+    width: 100% !important; }
+    #contact #forma {
+      margin-bottom: 20px; }
+      #contact #forma textarea {
+        width: 290px; }
+    #contact #email, #contact #name {
+      width: 145px; }
+
+  footer {
+    font-size: 25px;
+    height: 40px; } }
+@media (min-width: 1224px) {
+  .sekcija3 {
+    padding-left: 0px;
+    padding-right: 0px; }
+
+  #about > .container-fluid > .row > .col-sm-12 h1 {
+    margin-bottom: 10px; }
+
+  #contact #email, #contact #name {
+    width: 139px; } }
+@media (min-width: 1824px) {
+  header .carousel-inner .one, header .carousel-inner .two, header .carousel-inner .three {
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat !important;
+    width: 100% !important; }
+  header #navbar .navigation > a {
+    font-size: 17px; }
+  header #navbar .container {
+    float: right; }
+
+  #services p {
+    font-size: 18px; }
+  #services h2 {
+    font-size: 30px; }
+
+  #about > .container-fluid > .row > .col-sm-12 {
+    background: url("../slike/aboutus.jpg");
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat !important;
+    width: 100% !important; }
+    #about > .container-fluid > .row > .col-sm-12 p {
+      font-size: 18px; }
+
+  #contact {
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat !important;
+    width: 100% !important; }
+    #contact .kontakt p > i {
+      font-size: 20px; }
+    #contact .main {
+      font-size: 18px; }
+    #contact #forma textarea {
+      width: 400px; }
+    #contact #forma #email, #contact #forma #name {
+      width: 200px; } }
 
 /*# sourceMappingURL=uredjaji.css.map */
